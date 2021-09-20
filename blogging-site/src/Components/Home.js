@@ -21,6 +21,7 @@ export default function Home() {
             subheading="Mountains are awesome "
             />
             
+            
         </div>
     )
 }
