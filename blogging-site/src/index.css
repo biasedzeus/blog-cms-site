@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lora', serif;
+font-family: 'Marcellus', serif;
+font-family: 'Rokkitt', serif;
 }
 
 code {
@@ -49,10 +52,10 @@ img{
 }
 
 .hero-section .sub-heading{
-  margin-top: 10px;
+  margin-top: 0px;
   text-align: center;
   color: #fff;
   text-transform: capitalize;
-  font-size: 35px;
+  font-size: 95px;
   font-weight: 300;
 }

@@ -4,12 +4,26 @@ import "./TopBar.css"
 function TopBar() {
     return (
         <div className="top">
-            <div class="topbar-item">Home</div>
-            <div class="topbar-item">About</div>
-            <div class="topbar-item">Contact Us</div>
-            <div class="topbar-item">New Blog</div>
-            <div class="topbar-item">Notifications</div>
-            <div class="topbar-item">Login</div>
+            <div className="topLeft">
+            <i className="fa-solid fa-rainbow topbar-icon"></i>
+            
+           
+            </div>
+
+            <div className="topCenter">
+                <ul class="topList">
+                    <li class="topListItem">Home</li>
+                    <li class="topListItem">ABOUT</li>
+                    <li class="topListItem">Contact Us</li>
+                    <li class="topListItem">New Blogs</li>
+                    <li class="topListItem">Trending</li>
+                </ul>
+        
+            </div>
+            <div className="topRight">
+            <div className="topbar-item">Notifications</div>
+            <div className="topbar-item">Login</div>
+            </div>
 
             
         </div>
